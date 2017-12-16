@@ -9,7 +9,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 const TopBar = () => (
   <MuiThemeProvider muiTheme={muiTheme}>
-    <AppBar title="yamad07 Portfolio" titleStyle={{fontSize:20, paddingLeft:20, paddingRight:20}} style={commonStyle.appBarColorDefault}>
+    <AppBar title="Yusuke Yamada Web Site" titleStyle={{fontSize:20, paddingLeft:20, paddingRight:20}} style={commonStyle.appBarColorDefault}>
     </AppBar>
   </MuiThemeProvider>
 );

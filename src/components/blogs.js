@@ -6,24 +6,23 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 
-const History = () => (
+const Blogs = () => (
   <MuiThemeProvider muiTeme={getMuiTheme(darkBaseTheme)}>
-  <Card style={style.container}>
-    <CardHeader
-      title="blogs"
-      subtitle="Qiitaへのリンク"
-    />
-    <CardTitle title="React Native入門 1" subtitle="2017 12 ">
-      脇田研究会に所属。人工知能とアートに関する研究を行なっている。
-    </CardTitle>
-  </Card>
+      <Card style={styles.container}>
+        <CardHeader
+          title="Blogs"
+          subtitle="Qiitaへのリンク"
+        />
+        <CardTitle title="React Native 入門 1" subtitle="2017 12 ">
+            <a href="https://qiita.com/yamad07/items/98675b801f9c02bcccf3">React Nativeを速習したい人にオススメの記事。</a>
+        </CardTitle>
+      </Card>
   </MuiThemeProvider>
 );
-
-const style = {
-    container : {
-        margin: 100
+const styles={
+    container: {
+        marginTop: 30,
     }
 }
 
-export default History;
+export default Blogs;

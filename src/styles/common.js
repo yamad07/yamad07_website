@@ -1,5 +1,5 @@
 export const commonStyle = {
   appBarColorDefault: {
-    backgroundColor: '#303F9F'
+    backgroundColor: '#212121'
   }
 };

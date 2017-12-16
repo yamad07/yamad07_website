@@ -31,7 +31,7 @@ const History = () => (
 
 const style = {
     container : {
-        margin: 130
+        marginTop:30,
     }
 }
 

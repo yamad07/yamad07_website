@@ -23,7 +23,7 @@ const data = [
 ];
 const Welcome = () => (
     <div style={{marginTop: 30}}>
-      <LineChart width={700} height={400} data={data} style={{margin: "auto", opacity: 0.5}}>
+      <LineChart width={1300} height={400} data={data} style={{margin: "auto", opacity: 0.5}}>
           <Line type="natural" dataKey="pv" stroke="#8884d8" dot={false}/>
           <Line type="natural" dataKey="uv" stroke="#8884d8" dot={false} />
         </LineChart>
