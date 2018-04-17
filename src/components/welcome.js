@@ -27,16 +27,16 @@ const Welcome = () => (
           <Line type="natural" dataKey="pv" stroke="#8884d8" dot={false}/>
           <Line type="natural" dataKey="uv" stroke="#8884d8" dot={false} />
         </LineChart>
-    <h1 style={style.top_text} >Machine Learning and Aesthetic Engineering</h1>
+    <h1 style={style.top_text} >Machine Learning and Groth Hacking</h1>
     </div>
-) 
+)
 
 export default Welcome;
 
 const style = {
     top_text: {
         margin: 0,
-        top: 300, 
+        top: 300,
         left: 0,
         right: 0,
         fontSize: 30,
