@@ -14,7 +14,7 @@ const History = () => (
       subtitle="インターン、職歴、学歴など"
     />
     <CardTitle title="Keio Univ. Environment and Information" subtitle="2016 - ">
-      脇田研究会に所属。人工知能とアートに関する研究を行なっている。
+      徳田研究会に所属。機械学習システムとユビキタスコンピューティングに関する研究を行なっている。
     </CardTitle>
     <CardTitle title="scouty inc." subtitle="2017 5 - ">
       退職率予測モジュールの開発、データ分析など。
